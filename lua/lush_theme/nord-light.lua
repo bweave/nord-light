@@ -103,6 +103,9 @@ local theme = lush(function()
     Type { fg = orange },
     Underlined { fg = red },
 
+    multiple_cursors_cursor { Visual },
+    multiple_cursors_visual { Visual },
+
     jsBooleanTrue { fg = orange },
     jsBooleanFalse { fg = orange },
     jsConditional { fg = purple },
@@ -156,4 +159,3 @@ local theme = lush(function()
 end)
 
 return theme
-
