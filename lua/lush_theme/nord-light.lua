@@ -12,7 +12,7 @@ local colors = {
   nord3_bright = hsl(220, 17, 46), -- #616F89
   -- Snow Storm
   nord4 = hsl(219, 28, 88), -- #D8DEE9
-  nord5 = hsl(233, 22, 92), -- #E5E9F0
+  nord5 = hsl(220, 30, 92), -- #E5E9F0
   nord6 = hsl(218, 27, 94), -- #ECEFF4
   -- Frost
   nord7 = hsl(191, 25, 44), -- #8FBCBB
@@ -125,6 +125,7 @@ local theme = lush(function()
     jsNumber { fg = orange },
     jsStatement { fg = purple },
     jsVariableDef { fg = dark_blue },
+    jsObjectKey { fg = Normal.fg },
 
     jsxAttrib { fg = orange },
     jsxComponentName { fg = purple },
