@@ -156,6 +156,9 @@ local theme = lush(function()
     diffRemoved { fg = red.li(20) },
     diffAdded { fg = green.de(40) },
     gitCommitSummary { fg = dark_blue },
+
+    -- treesitter
+    TSLabel {},
   }
 end)
 
